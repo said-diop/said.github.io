@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background: url("images/2314087.jpg");
+    background-size: cover;
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title h1
+{
+    font-size: 4rem;
+    font-family: sans-serif;
+    color:#ffea6b;
+}
+.title h1 span
+{
+    font-style: italic;
+    color: green;
+    font-family: 'Pacifico';
+}
+.play 
+{
+    text-decoration: none;
+    color: green;
+    font-size: 4rem;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    background-color:#ffea6b ;
+    border-radius: 100%;
+    width: 9rem;
+    margin-left: 38rem;
+    height: 9rem;
+}
+.play p
+{
+    font-size: 2rem;
+}

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background: url("images/123269-OQR5JK-283.jpg");
+    background-size: cover;
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.gamers
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.client ,.ordi
+{
+    width: 10rem;
+    height: 6rem;
+    background-color: green;
+}
+.client .nature,   .ordi .nature
+{
+    background-color: white;
+    height: 2rem;
+}
+.client .nature p, .ordi .nature p
+{
+    padding: 2px;
+    font-size: 30px;
+    text-align: center;
+}
+.client .gamerValue, .ordi .computerValue
+{
+    padding: 10px;
+    font-size: 3rem;
+    text-align: center;
+}
+.result
+{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+    background-color:#ffea6b ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 38rem;
+    margin-top: 5rem;
+}
+.result .resultValue
+{
+    font-size: 3rem;
+}
+
+.valueChoosen, .selectedVal
+{
+    height: 2rem;
+    width: 10rem;
+    font-size: 1rem;
+}
+.valueChoosen
+{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100%;
+    padding: 10px;
+}
+.GO
+{
+    width: 5rem;
+    height: 3rem;
+    font-size: 2rem;
+    margin: 20px;
+    margin-left: 70px;
+    background-color:#ffea6b;
+    border-radius: 19px;
+    outline: none;
+}
+.GO:hover
+{
+    background-color: green;
+}
